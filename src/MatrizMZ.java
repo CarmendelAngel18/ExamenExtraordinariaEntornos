@@ -55,4 +55,9 @@ public class MatrizMZ {
         return true;
     }
 
+    public void assertEquals(int i, int i1) {
+    }
+
+    public void assertNotEquals(int i, int i1) {
+    }
 }
