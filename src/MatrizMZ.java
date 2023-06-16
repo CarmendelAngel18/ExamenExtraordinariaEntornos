@@ -26,6 +26,7 @@ public class MatrizMZ {
     }
 
     public boolean Matriz(int n, int m){
+        int Matriz = n * m;
 
         for (int i = n; i >=0; i++){
             System.out.println("Introduce el valor de n:" + n);
@@ -36,6 +37,7 @@ public class MatrizMZ {
             return true;
         }
         return false;
+
     }
 
     public boolean esCuadrada(int m, int n){
@@ -44,10 +46,13 @@ public class MatrizMZ {
         }return false;
     }
 
-    public int esTriangular(){
-        if (){
-
+    public boolean esTriangular(int m, int n){
+        if (m >= 0 ){
+            return false;
+        } else if (n >= 0){
+            return false;
         }
+        return true;
     }
 
 }

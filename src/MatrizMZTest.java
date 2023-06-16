@@ -1,5 +1,4 @@
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class MatrizMZTest {
@@ -7,14 +6,17 @@ class MatrizMZTest {
     @Test
     void matriz() {
         MatrizMZ matriz = new MatrizMZ;
-        matriz.
+
     }
 
     @Test
     void esCuadrada() {
+        MatrizMZ cuadrada = new MatrizMZ;
+
     }
 
     @Test
     void esTriangular() {
+
     }
 }
